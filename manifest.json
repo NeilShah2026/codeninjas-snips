@@ -1,0 +1,13 @@
+{
+    "name": "CodeNinja Snips",
+    "version": "1.0.0",
+    "description": "CodeNinja Code Shortcuts",
+    "manifest_version": 3,
+    "author": "Neil Shah",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Code Snips",
+        "default_width": 1000,
+        "default_height": 500
+    }
+}
