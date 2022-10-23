@@ -1,0 +1,39 @@
+#searchbar{
+	margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	padding:15px;
+	border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+.snip{
+display: list-item;	
+}
+
+.popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
